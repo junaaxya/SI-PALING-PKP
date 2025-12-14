@@ -65,38 +65,37 @@ src/
 
 ```
 
-🚀 Cara Menjalankan (Installation)
-Ikuti langkah ini untuk menjalankan proyek di komputer lokal (Localhost):
+## 🚀 Cara Menjalankan (Installation)
 
-Clone atau Download repository ini.
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal Anda:
 
-Buka terminal di dalam folder proyek.
+1.  **Clone atau Download** repository ini.
+2.  Buka terminal di dalam folder proyek.
+3.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Jalankan Mode Development:**
+    ```bash
+    npm run dev
+    ```
+5.  Buka browser dan akses URL yang muncul (biasanya `http://localhost:5173`).
 
-Install Dependencies:
+## 📦 Build untuk Production
 
-Bash
-
-npm install
-Jalankan Mode Development:
-
-Bash
-
-npm run dev
-Buka browser dan akses URL yang muncul (biasanya http://localhost:5173).
-
-📦 Build untuk Production
 Untuk men-deploy aplikasi ke server (Hosting/Vercel/Netlify):
 
-Bash
-
+```bash
 npm run build
-Folder dist akan terbentuk dan siap untuk diunggah.
+```
 
-👥 Tim Pengembang
-CV. Panda Karya
+## 👥 Tim Pengembang
 
-Role: Research and Engineering Consultant
+**CV. Panda Karya**
+* **Role:** Research and Engineering Consultant
+* **Tanggung Jawab:** Perancangan sistem, pengembangan aplikasi, dan alih pengetahuan.
 
-Tanggung Jawab: Perancangan sistem, pengembangan aplikasi, dan alih pengetahuan.
+---
 
-Hak Cipta © 2025 SI PALING PKP - Provinsi Kepulauan Bangka Belitung. All rights reserved.
+Hak Cipta © 2025 **SI PALING PKP - Provinsi Kepulauan Bangka Belitung**.
+All rights reserved.
