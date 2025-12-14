@@ -63,6 +63,7 @@ src/
 ├── App.jsx              # Manajemen Routing Utama
 └── index.css            # Konfigurasi Global & Tailwind
 
+```
 
 🚀 Cara Menjalankan (Installation)
 Ikuti langkah ini untuk menjalankan proyek di komputer lokal (Localhost):
