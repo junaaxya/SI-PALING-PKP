@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Home, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '../common/Button';
 import logo1 from '../../assets/logo1.png';
 import logo2 from '../../assets/logo2.png';
@@ -55,7 +55,6 @@ export const Navbar = ({ currentPage = 'home' }) => {
                                 alt="Logo Kiri"
                                 className="h-12 w-auto object-contain"
                             />
-
                             {/* Logo 2 */}
                             <img
                                 src={logo1}
@@ -65,18 +64,18 @@ export const Navbar = ({ currentPage = 'home' }) => {
                         </div>
 
                         <div>
+                            {/* Judul Aplikasi */}
                             <h1
-                                className={`text-xl font-bold ${
+                                className={`text-xl font-bold whitespace-nowrap ${
                                     isScrolled ? 'text-gray-800' : 'text-white'
                                 }`}
                             >
-                                {' '}
                                 <span className="text-blue-900">SI</span>{' '}
                                 <span className="text-yellow-400">PALING</span>{' '}
-                                <span className="text-blue-900">PKP</span>{' '}
+                                <span className="text-blue-900">PKP</span>
                             </h1>
                             <p
-                                className={`text-xs ${
+                                className={`text-xs whitespace-nowrap ${
                                     isScrolled
                                         ? 'text-gray-600'
                                         : 'text-gray-200'
@@ -88,7 +87,8 @@ export const Navbar = ({ currentPage = 'home' }) => {
                     </div>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden md:flex items-center gap-8">
+                    {/* PERBAIKAN 1: Mengubah gap-8 menjadi gap-4 atau gap-6 agar lebih muat */}
+                    <div className="hidden md:flex items-center gap-6">
                         {navLinks.map((link) => (
                             <a
                                 key={link.name}
@@ -96,16 +96,24 @@ export const Navbar = ({ currentPage = 'home' }) => {
                                 onClick={(e) =>
                                     link.isExternal && handleNavClick(e, link)
                                 }
-                                className={`font-medium transition-colors hover:text-blue-600 ${
+                                // PERBAIKAN 2: Menambahkan 'whitespace-nowrap' agar teks TIDAK turun ke bawah
+                                className={`font-medium text-sm lg:text-base transition-colors hover:text-blue-600 whitespace-nowrap ${
                                     isScrolled ? 'text-gray-700' : 'text-white'
                                 }`}
                             >
                                 {link.name}
                             </a>
                         ))}
-                        <Button variant="primary" href="#signin">
-                            Masuk
-                        </Button>
+
+                        {/* Tombol Masuk */}
+                        <div className="flex-shrink-0">
+                            <Button
+                                variant="primary"
+                                href="https://sipaling-pkp-web-126109813915.asia-southeast2.run.app/"
+                            >
+                                Masuk
+                            </Button>
+                        </div>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -143,7 +151,7 @@ export const Navbar = ({ currentPage = 'home' }) => {
                         <div className="px-4 pt-2">
                             <Button
                                 variant="primary"
-                                href="#signin"
+                                href="https://sipaling-pkp-web-126109813915.asia-southeast2.run.app/"
                                 className="w-full justify-center"
                             >
                                 Masuk

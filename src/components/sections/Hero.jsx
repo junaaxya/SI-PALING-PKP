@@ -30,7 +30,10 @@ export const Hero = () => {
                             Pelajari Lebih Lanjut
                             <ArrowRight size={20} />
                         </Button>
-                        <Button variant="outline" href="#features">
+                        <Button
+                            variant="outline"
+                            href="https://sipaling-pkp-web-126109813915.asia-southeast2.run.app/"
+                        >
                             Daftarkan Rumah Anda Sekarang
                         </Button>
                     </div>
