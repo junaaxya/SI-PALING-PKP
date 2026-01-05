@@ -109,7 +109,7 @@ export const Navbar = ({ currentPage = 'home' }) => {
                         <div className="flex-shrink-0">
                             <Button
                                 variant="primary"
-                                href="https://sipaling-pkp-web-126109813915.asia-southeast2.run.app/"
+                                href="https://sipaling-pkp.vercel.app/"
                             >
                                 Masuk
                             </Button>
@@ -151,7 +151,7 @@ export const Navbar = ({ currentPage = 'home' }) => {
                         <div className="px-4 pt-2">
                             <Button
                                 variant="primary"
-                                href="https://sipaling-pkp-web-126109813915.asia-southeast2.run.app/"
+                                href="https://sipaling-pkp.vercel.app/"
                                 className="w-full justify-center"
                             >
                                 Masuk

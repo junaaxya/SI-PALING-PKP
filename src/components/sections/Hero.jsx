@@ -32,7 +32,7 @@ export const Hero = () => {
                         </Button>
                         <Button
                             variant="outline"
-                            href="https://sipaling-pkp-web-126109813915.asia-southeast2.run.app/"
+                            href="https://sipaling-pkp.vercel.app/"
                         >
                             Daftarkan Rumah Anda Sekarang
                         </Button>
