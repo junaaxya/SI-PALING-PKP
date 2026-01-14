@@ -14,13 +14,13 @@ export const Footer = () => {
                             {/* Container 2 Logo */}
                             <div className="flex items-center gap-2">
                                 <img
-                                    src={logo1}
-                                    alt="Logo Kiri"
+                                    src={logo2}
+                                    alt="Logo Kanan"
                                     className="h-12 w-auto object-contain"
                                 />
                                 <img
-                                    src={logo2}
-                                    alt="Logo Kanan"
+                                    src={logo1}
+                                    alt="Logo Kiri"
                                     className="h-12 w-auto object-contain"
                                 />
                             </div>
