@@ -81,7 +81,7 @@ export const Navbar = ({ currentPage = 'home' }) => {
                                         : 'text-gray-200'
                                 }`}
                             >
-                                Kepulauan Bangka Belitung
+                                Provinsi Kep. Bangka Belitung
                             </p>
                         </div>
                     </div>

@@ -36,7 +36,7 @@ export const Footer = () => {
                                     <span className="text-blue-400">PKP</span>{' '}
                                 </h3>
                                 <p className="text-sm text-gray-400">
-                                    Kepulauan Bangka Belitung
+                                    Provinsi Kep. Bangka Belitung
                                 </p>
                             </div>
                         </div>
